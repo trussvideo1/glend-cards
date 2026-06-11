@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Regular.ttf') format('truetype');
+    font-weight: 100 900;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+  .card {
+    position: relative; width: 1080px; height: 1350px;
+    font-family: 'Noto Sans KR', sans-serif; color: #FFFFFF;
+  }
+  .bg { position: absolute; inset: 0; background-size: cover; background-position: center; z-index: 1; }
+  .overlay {
+    position: absolute; inset: 0; z-index: 2;
+    background: linear-gradient(180deg, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.75) 50%, rgba(0,0,0,0.90) 100%);
+  }
+  .content {
+    position: absolute; inset: 0; z-index: 3; padding: 80px;
+    display: flex; flex-direction: column;
+    text-align: left; align-items: flex-start;
+  }
+
+  /* 카드1 후킹 */
+  .hook-title { margin-top: auto; font-size: 150px; font-weight: 900; line-height: 1.15; text-align: left; }
+  .hook-sub { margin-top: 44px; margin-bottom: auto; text-align: left; font-size: 54px; font-weight: 700; color: #CFFF04; }
+
+  /* 카드2 분석 & 카드3 통찰 - 제목 스타일 통일 */
+  .ana-wrap, .ins-wrap { margin-top: auto; margin-bottom: auto; display: flex; flex-direction: column; justify-content: center; width: 100%; }
+  .ana-subtitle, .ins-title {
+    font-size: 92px; font-weight: 800; line-height: 1.2; text-align: left;
+    border-left: 14px solid #CFFF04; padding-left: 34px;
+  }
+  .ana-body, .ins-body { margin-top: 56px; font-size: 54px; font-weight: 400; line-height: 1.6; text-align: left; }
+  .ana-body .line, .ins-body .line { display: block; white-space: nowrap; margin-bottom: 14px; }
+  .ana-body b, .ins-body b { font-weight: 800; color: #CFFF04; }
+
+  /* 카드4 브랜딩 */
+  .brand-logo-full { position: absolute; inset: 0; z-index: 3; width: 1080px; height: 1350px; object-fit: cover; }
+</style>
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="bg" id="bg"></div>
+    <div class="overlay" id="overlay"></div>
+    <div class="content" id="content">
+      <div id="body-area" style="display:flex;flex-direction:column;flex:1;width:100%;"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "topic": "고금리 속 부동산 과열과 양극화",
+  "card1": {
+    "title": "금리 폭탄\n부동산 왜?",
+    "sub": "특정 지역만 들썩이는 이유",
+    "query": "housing market boom, rising interest rates",
+    "bg": "https://images.pexels.com/photos/6120172/pexels-photo-6120172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "card2": {
+    "subtitle": "어디가\n오르나?",
+    "lines": [
+      "<b>경기 남부</b> 아파트값",
+      "최근 <b>강세</b> 뚜렷해요.",
+      "특히 <b>동탄</b> 상승폭",
+      "역대 최고 기록!",
+      "반도체 훈풍 영향."
+    ],
+    "query": "south korea apartment buildings, semiconductor factory",
+    "bg": "https://images.pexels.com/photos/11851279/pexels-photo-11851279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "card3": {
+    "subtitle": "부동산\n양극화 심화",
+    "lines": [
+      "한국은행은 '<b>복합 양극화</b>'",
+      "경고했습니다.",
+      "부동산 없으면 <b>자산 사다리</b>",
+      "좁아진다고 해요.",
+      "정책적 고민 필요."
+    ],
+    "query": "wealth gap stairs, economic inequality",
+    "bg": "https://images.pexels.com/photos/13068438/pexels-photo-13068438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "caption": "고금리 시대인데, 왜 특정 지역 부동산은 오를까요? 📈\n최근 <b>경기 남부</b> 아파트값이 심상치 않다고 해요!\n특히 <b>동탄</b>은 역대급 상승세를 기록하며 화제인데요.\n<b>반도체 훈풍</b>이 지역 부동산 시장에 큰 영향을 미친 것 같아요.\n하지만 한국은행은 이런 현상을 '<b>복합 양극화</b>'로 보고 있어요.\n부동산 없이는 자산 형성이 더 어려워지는 <b>자산 사다리</b> 문제가 심화될 수 있다는 경고입니다.\n과연 이 과열, 어떻게 봐야 할까요?\n여러분은 어떻게 생각하시나요?\n#부동산 #고금리 #동탄 #경기남부 #양극화"
+}
